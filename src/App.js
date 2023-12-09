@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route,  } from "react-router-dom";
 import Home from './routes/Home';
 import Detail from './routes/Detail';
 
+<Router basename={process.env.PUBLIC_URL} />
+
 function App() {
   return (
     <Router>
